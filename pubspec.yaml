@@ -1,0 +1,42 @@
+name: tilimapp
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.1.0
+  shared_preferences: ^2.5.3
+  flutter_sound: ^9.2.13
+  permission_handler: ^11.3.0
+  page_transition: ^2.1.0
+  flutter_svg: ^2.0.10
+  cached_network_image: ^3.3.1
+  cloudinary_url_gen: ^1.0.0
+  cloudinary_api: ^1.0.0
+  flutter_dotenv: ^5.1.0
+  image_picker: ^1.0.4
+  crypto: ^3.0.3
+  dart_openai: ^4.0.0
+  flutter_stripe: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:  
+  uses-material-design: true
+
+
+
+  assets:
+    - assets/images/
+    - assets/sounds/
+    - .env
